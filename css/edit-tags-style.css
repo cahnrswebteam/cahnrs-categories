@@ -1,0 +1,16 @@
+.wrap h3 {
+	border-bottom: 1px solid #333;
+	padding-bottom: 6px;
+}
+.wrap h4 {
+	font-size: 1.1em;
+}
+.wrap ul {
+	margin-left: 1em;
+  -webkit-columns: 3;
+ 	-moz-columns:    3;
+	columns:         3;
+}
+.wrap li em {
+	color: #999;
+}
