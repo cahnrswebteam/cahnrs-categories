@@ -41,7 +41,7 @@ class cahnrs_categories {
 
 	public function plugin() {
 
-		$init_taxonomies = new taxonomies_control(); // Register taxonomies
+		$this->init_taxonomies = new taxonomies_control(); // Register taxonomies
 		$init_scripts = new scripts_control(); // Enqueue scripts
 
 		if ( \is_admin() )
@@ -55,4 +55,5 @@ class cahnrs_categories {
 $init_cahnrs_category = new cahnrs_categories();
 
 $init_cahnrs_category->plugin();
+/*$init_cahnrs_category->init_taxonomies , 'display_categories'*/
 ?>
