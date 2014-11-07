@@ -12,6 +12,7 @@
 
 class cahnrs_categories {
 
+	public $init_taxonomies;
 
 	// Fire necessary hooks when instantiated
 	public function __construct() {
@@ -44,14 +45,14 @@ class cahnrs_categories {
 		$init_scripts = new scripts_control(); // Enqueue scripts
 
 		if ( \is_admin() )
-			$init_metabox = new metabox_control(); // Custom metaboxes for custom post type
+			$init_metabox = new metabox_control(); // Custom display of CAHNRS Categories metabox
 
 	}
 
 
 }
 
-$init_plugin = new cahnrs_categories();
+$init_cahnrs_category = new cahnrs_categories();
 
-$init_plugin->plugin();
+$init_cahnrs_category->plugin();
 ?>

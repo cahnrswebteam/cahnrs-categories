@@ -249,7 +249,6 @@ class taxonomies_control {
 			),
 			'Departments' => array(
 				'Academic' => array(
-					'Agriculture and Food Systems',
 					'Department of Animal Science',
 					'Department of Apparel, Merchandising, Design and Textiles',
 					'Department of Biological Systems Engineering',
@@ -259,30 +258,36 @@ class taxonomies_control {
 					'Department of Human Development',
 					'Department of Plant Pathology',
 					'Institute of Biological Chemistry',
-					'Integrated Plant Sciences',
 					'School of Design and Construction',
 					'School of Economic Sciences',
 					'School of the Environment',
 					'WSU/UI School of Food Sciences',
 				),
-				'Administrative' => array(
+				'Administrative/Support' => array(
 					'Academic Programs',
 					'Alumni and Friends',
 					'Business and Finance Office',
 					'CAHNRS Office of Research',
-					'Communications',
+					'CAHNRS Communications',
 					'Computing and Web Resources',
 					'Dean\'s Office',
 					'Extension',
 					'Food Science/Clark Hall Business Center',
-					'Hulbert Hall Business Center',
 					'Johnson Hall Business Center',
 				),
-				'Centers' => array(
+			),
+			'Units' => array(
+				'Partnerships/Centers' => array(
 					'Ag WeatherNet',
 					'Center for Precision, Automated Agricultural Systems',
 					'Center for Sustaining Agriculture and Natural Resources',
+					'Center for Transformational Learning and Leadership',
 					'Clean Plant Network',
+					'Composite Materials and Engineering Center',
+					'IMPACT Center',
+					'International Research and Agricultural Development',
+					'Western Center for Risk Management Education',
+					'William D. Ruckelshaus Center',
 				),
 				'Extension County Offices' => array(
 					'Adams',
@@ -327,28 +332,26 @@ class taxonomies_control {
 					'Whitman',
 					'Yakima',
 				),
-				'Program Units' => array(
+				'Extension Program Units' => array(
 					'Agriculture and Natural Resources',
 					'Community and Economic Development',
 					'Youth and Family',
 				),
-				'Research and Extension Centers' => array(
-					'Mount Vernon',
-					'Prosser',
-					'Puyallup',
-					'Wentachee',
+				'Research and Extension' => array(
+					'Lind Dryland Research Station',
+					'Long Beach Research and Extension Unit',
+					'Mount Vernon Research and Extension Center',
+					'Prosser Irrigated Agricultural Research and Extension Center',
+					'Puyallup Research and Extension Center',
+					'Wentachee Tree Fruit Research and Extension Center',
+					'Yakima Agricultural Research Laboratory',
 				),
 			),
-			'Locations' => array(
-				'Regions' => array(
-					'Central Washington',
-					'Eastern Washington',
-					'Puget Sound Area',
-					'Western Washington',
-					'Statewide',
-					'National',
-					'International',
-				),
+			'Programs' => array(
+				'Agriculture and Food Systems' => array(),
+				'Integrated Plant Sciences' => array(),
+				'Interior Design' => array(),
+				'Landscape Architecture' => array(),
 			),
 			'Services and Activities' => array(
 				'Events' => array(
